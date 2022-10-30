@@ -5,30 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./stylt.css">
   
   <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+  integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+  integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+  crossorigin=""></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="main">
+   <div class="upper">
+    <div class="IP">
+      <h2>IP Address Tracker</h2>
+    </div>
+    <div class="input">
+      <input type="text" placeholder="Search for any IP address or domain"></input>
+      <button><svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg></button>
+    </div>
+    <div class="result">
+      <div>
+        <h6>IP Address</h6>
+        <h2>Test1</h2>
+      </div>
+      <div>
+        <h6>Location</h6>
+        <h2>Test2</h2>
+      </div>
+      <div>
+        <h6>Timezone UTC</h6>
+        <h2>test3</h2>
+      </div>
+      <div>
+        <h6>ISP</h6>
+        <h2>Test4</h2>
+      </div>
+    </div>
+   </div>
 
-  IP Address Tracker
-
-  Search for any IP address or domain
-
-  IP Address
-  Location
-  Timezone
-    UTC <!-- add offset value dynamically using the API -->
-  ISP
+   <div id="map"></div>
+  </div>
+   
   
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Danish Imran</a>.
   </div>
+  <script src="./script.js"></script>
+
 </body>
 </html>

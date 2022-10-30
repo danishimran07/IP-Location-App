@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.upper{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./images/pattern-bg.png);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.IP{
+    color: white;
+}
+
+input{
+    width: 85%;
+    height: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    margin: 0;
+}
+button{
+    width: 15%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: black;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IP, .result, .input {
+    width: 80vw;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    z-index: 1000;
+}
+
+.result, .result div{
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.result h6{
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: Dark Gray: hsl(0, 0%, 59%) ;
+}
+
+.result h2{
+    color: Very Dark Gray: hsl(0, 0%, 17%)
+}
+    
+    
+
+
+    #map{
+      width: 100vw;
+      height: 60vh;
+      border: 1px solid black;
+    }
+
+
+
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (min-width: 375px) {
+        .result {
+            display: flex; 
+            justify-content: space-around;
+        }
+        
+        .input{
+            max-width: 40vw;
+        }
+
+        .result div{
+            text-align: center;
+            padding: 20px;
+            border-right: 1px solid rgb(207, 206, 206)  ;
+        }
+    }
