@@ -1,4 +1,4 @@
-const input = document.getElementById('hello');
+const input = document.getElementById('value');
 const button = document.getElementsByTagName('button');
 
 const update = document.getElementsByClassName('update');
@@ -13,15 +13,14 @@ function myScript(){
          
     function setData(data){
         
-
+        
         let  data1 = [data.location.lat, data.location.lng];
         update[0].innerHTML =data.ip;
         update[1].innerHTML =data.location.region +', '+ data.location.country;
         update[2].innerHTML =data.location.timezone;
         update[3].innerHTML =data.isp;
-        if(map === undefined){
-
-            var map = L.map('map').setView(data1, 13);
+        
+          var map = L.map('map').setView(data1, 13);
     const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
