@@ -43,6 +43,8 @@ function myScript(){
 
         
  }
-    
+ window.addEventListener('load', myScript);
+
+
 button[0].addEventListener('click', myScript);
 
