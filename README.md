@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/danishimran07/IP-Location-App/)
+- Live Site URL: [Visit the Site ](https://danishimran07.github.io/IP-Location-App/)
 
 ### Built with
 
