@@ -1,6 +1,6 @@
 # IP address tracker App
 
-This is a solution to the [IP address tracker App](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
+This is a solution to the [IP address tracker App](https://danishimran07.github.io/IP-Location-App/).
 Anyone can put an IP address and get full information and location as well.
 
 ## Table of contents
