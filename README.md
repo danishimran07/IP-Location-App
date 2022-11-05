@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-[IP Adderess tracker](./design/desktop-preview.jpg)
+![IP Adderess tracker](./design/desktop-preview.jpg)
 
 ### Links
 
