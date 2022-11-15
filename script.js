@@ -11,9 +11,9 @@ function myScript(){
 
 
     
-     
+    const apiKey = "at_KT39ukY0pgHwDZznCzZffEDRGFyq9"
     const IP = input.value;
-   fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=at_92TwOIEOd7A5xMpqRBHJ7mBl2DSAG&ipAddress=${IP}`)
+   fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${IP}`)
     .then((res)=>res.json())
     .then((data)=>setData(data)
     );
